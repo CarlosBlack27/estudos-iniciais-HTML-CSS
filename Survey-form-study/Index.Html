@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration form</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header>
+  <h1 id="title">Carlos Survey Form</h1>
+  <p id="description">Plase fill all Relevant Information Below
+  </p>
+</header> 
+<form id="survey-form" class="survey-form">
+  <fieldset>
+    <label id="name-label" for="name"> Name <input id="name" type="text" placeholder="Enter your Full Name"  required/></label>
+    <label id="email-label" for="email"> Email <input id="email" type="email" placeholder="Enter your Email" required></label>
+    <label id="number-label" for="number"> Age <input id="number" type="number" min="13" max="120" placeholder="Enter Your Age" required/></label>
+    <label id="password-label" for="password"> Password <input id="password" type="password" pattern="[A-Z, 0-9] {8,} " placeholder="Enter Your password" required/> </label>
+    <label>Do You posses any disability</label>
+    <label class="inline" for="yes"> yes <input class="inline" type="checkbox" id="yes" name="yes" value="yes"></label>
+    <label class="inline" for="no"> no <input class="inline" type="checkbox" id="no" name="no" value="no"> </label>
+    <label id="profile-picture-label" for="profile-picture" > Upload Profile Picture  <input id="profile-picture"type="file" name="file" /></label>
+    <label for="bio"> Create a Bio: 
+      <textarea id="bio" name="bio" rows="3" cows="30" placeholder="I Like Coding" ></textarea> 
+      </label>
+  </fieldset>
+    <fieldset>
+      <legend>Account Type(Required)</legend>
+      <label for="personal-account" name="personal-account"><input id="personal-account" type="radio" name="account" value="?" class="inline" checked />personal</label>
+      <label for="business-account"><input id="business-account" type="radio" class="inline" name="account" value="?" /> business </label>
+    </fieldset>
+    <fiedset>
+    <label for="dropdwon"> How did you Found us  
+     <select id="dropdown" name="dropdwon">
+      <option>Select one</option> 
+      <option>Youtube</option>
+      <option>Instagram</option>
+      </select>
+    </label>
+    </fieldset>
+    <input id="submit" type="Submit" value="submit" />
+</form>
+</body>
