@@ -1,0 +1,82 @@
+** start of undefined **
+
+<!DOCTYPE HTML>
+<Html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tribute Page</title>
+  </head>
+  <body>
+  <main id="main">
+    <h1 id="title">Lorem</h1>
+    <h2 id="subtitle">Lorem ipsum dolor sit amet consectetur adipiscing elit.</h2>
+    <figure id="img-div">
+      <img id="image" src="https://imageplaceholder.net/600x400/eeeeee/131313?text=lorem">
+      <figcaption id="img-caption">
+        <h3>Lorem ipsum</h3>
+      </figcaption>
+      <div id="tribute-info">
+        <ul>
+          <li>Lorem ipsum dolor sit amet consectetur adipiscing elit.</li>
+          <li>Lorem ipsum dolor sit amet consectetur adipiscing elit.</li>
+          <li>Lorem ipsum dolor sit amet consectetur adipiscing elit.</li>
+          <li>Lorem ipsum dolor sit amet consectetur adipiscing elit.</li>
+          <li>Lorem ipsum dolor sit amet consectetur adipiscing elit.</li>
+        </ul>
+      </div>
+    </figure>
+      <footer>
+        <a href="https://loremipsum.io/generator/?n=2&t=w" id="tribute-link" target="_blank" >Click Here</a>
+      </footer>
+  </main>
+  </body>
+    
+
+** end of undefined **
+
+** start of undefined **
+
+img{
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #dfdfe2;
+    background-color: #2a2a40;
+    margin: 0;
+} 
+
+div{
+  background-color: #2a2a40;
+  display: flex;
+  justify-content: center;
+}
+
+ul{
+  color: #dfdfe2;
+}
+
+li{
+  padding-bottom: 10px;
+  list-style: none;
+  padding-top: 10px;
+}
+
+footer{
+  background-color:#2a2a40;
+}
+
+footer a{
+   color: #dfdfe2;
+}
+
+** end of undefined **
+
